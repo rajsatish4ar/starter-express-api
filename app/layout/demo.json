@@ -1,0 +1,15 @@
+{
+  "pageName":"demo_v1_default",
+  "version":"v1",
+  "components":[
+    {
+      "type":"View",
+      "attributes":{
+        "style":{
+          "height":200,
+          "backgroundColor":"red"
+        }
+      }
+    }
+  ]
+}
