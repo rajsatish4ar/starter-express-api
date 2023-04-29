@@ -40,6 +40,58 @@
           }
         }    
       ]
+    },
+    {
+      "type":"Text",
+      "componentId":"xyz",
+      "attributes":{
+        "style":{
+          "fontSize":24,
+          "fontWeight":"bold"
+        },
+        "children":"Dyanmic Text attributes",
+        "actions":{}
+      },
+      "dataFetchType":"DYNAMIC",
+      "dataFetchDetails":{
+        "query":"getDynamicAttributes",
+        "params":{
+          "style":{
+            "fontSize":18
+          }
+        },
+        "attributesDataOnly":true
+      },
+      "dataFetchAttributesOnly":true,
+      "subComponents":[]
+    },
+    {
+      "type":"View",
+      "componentId":"xyz",
+      "attributes":{
+        "style":{
+          "borderWidth":1
+        },
+        "children":"Dyanmic Text attributes",
+        "actions":{}
+      },
+      "dataFetchType":"DYNAMIC",
+      "dataFetchDetails":{
+        "query":"getDynamicComponents",
+        "params":{
+        },
+      "attributesDataOnly":false
+      },
+      "subComponents":[
+        {
+          "type":"Text",
+          "attributes":{
+            "style":{
+            },
+            "children":"loading list..."
+          }
+        }    
+      ]
     }
   ]
 }
