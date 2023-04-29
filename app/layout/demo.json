@@ -3,13 +3,43 @@
   "version":"v1",
   "components":[
     {
+      "type":"Text",
+      "componentId":"xyz",
+      "attributes":{
+        "style":{
+          "fontSize":24,
+          "fontWeight":"bold"
+        },
+        "children":"Dyanmic App",
+        "actions":{}
+      },
+      "hooksMapperKey":"useSample",
+      "dataFetchType":"REALTIME",
+      "dataFetchDetails":{
+        "query":"",
+        "params":{}
+      },
+      "subComponents":[]
+    },
+
+    {
       "type":"View",
       "attributes":{
         "style":{
           "height":200,
-          "backgroundColor":"red"
+          "marginVertical":20
         }
-      }
+      },
+      "subComponents":[
+        {
+          "type":"Text",
+          "attributes":{
+            "style":{
+            },
+            "children":"hello there"
+          }
+        }    
+      ]
     }
   ]
 }
