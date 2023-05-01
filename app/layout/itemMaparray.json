@@ -1,0 +1,65 @@
+{
+  "pageName":"demo_v1_default",
+  "version":"v1",
+  "components":[ 
+    {
+      "type":"View",
+      "componentId":"itemMapArray_main",
+      "isNestedComponents":true,
+      "attributes":{
+        "style":{
+          "height":200,
+          "marginVertical":20
+        }
+      },
+      "dataFetchType":"STATIC",
+      "subComponents":[
+        {
+          "type":"Text",
+          "componentId":"itemMapArray_abcd1",
+          "attributesOnly":true,
+          "attributes":{ 
+            "style":{
+              "fontSize":24,
+              "fontWeight":"bold"
+            },
+            "children":"Dyanmic App",
+            "actions":{}
+          },
+          "dataFetchType":"STATIC",
+          "subComponents":[]
+        },
+        {
+          "type":"Text",
+          "componentId":"itemMapArray_abcd2",
+          "attributesOnly":true,
+          "attributes":{ 
+            "style":{
+              "fontSize":24,
+              "fontWeight":"bold"
+            },
+            "children":"Dyanmic App",
+            "actions":{}
+          },
+          "dataFetchType":"STATIC",
+          "subComponents":[]
+        },
+        {
+          "type":"Text",
+          "componentId":"itemMapArray_abcd3",
+          "attributesOnly":true,
+          "attributes":{ 
+            "style":{
+              "fontSize":24,
+              "fontWeight":"bold"
+            },
+            "children":"Dyanmic App",
+            "actions":{}
+          },
+          "dataFetchType":"STATIC",
+          "subComponents":[]
+        }
+      ]
+    }
+  ]
+}

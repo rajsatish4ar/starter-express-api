@@ -1,0 +1,45 @@
+{
+  "pageName":"demo_v1_default",
+  "version":"v1",
+  "components":[ 
+    {
+      "type":"View",
+      "componentId":"itemItemMaparray_main",
+      "isNestedComponents":true,
+      "attributes":{
+        "style":{
+          "height":200,
+          "marginVertical":20
+        }
+      },
+      "dataFetchType":"STATIC",
+      "subComponents":[
+        {
+          "type":"View",
+          "componentId":"itemItemMaparray_abcd1",
+          "isNestedComponents":true,
+          "attributes":{ 
+          },
+          "dataFetchType":"STATIC",
+          "subComponents":[
+            {
+              "type":"Text",
+              "componentId":"itemItemMaparray_abcd2",
+              "attributesOnly":true,
+              "attributes":{ 
+                "style":{
+                  "fontSize":24,
+                  "fontWeight":"bold"
+                },
+                "children":"Dyanmic App",
+                "actions":{}
+              },
+              "dataFetchType":"STATIC",
+              "subComponents":[]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

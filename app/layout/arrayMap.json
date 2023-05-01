@@ -1,0 +1,33 @@
+{
+  "pageName":"demo_v1_default",
+  "version":"v1",
+  "components":[ 
+    {
+      "type":"View",
+      "componentId":"arrayMap_main",
+      "attributes":{
+        "style":{
+          "height":200,
+          "marginVertical":20
+        },
+        "subComponentDetails":{
+          "type":"Text",
+          "componentId":"arrayMap_abcd",
+          "attributes":{ 
+            "style":{
+              "fontSize":24,
+              "fontWeight":"bold"
+            },
+            "children":"Dyanmic App",
+            "actions":{}
+          },
+          "dataFetchType":"STATIC",
+          "subComponents":[]
+        }
+      },
+      "subComponents":[
+      
+      ]
+    }
+  ]
+}

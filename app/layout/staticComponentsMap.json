@@ -1,10 +1,67 @@
 {
   "demo_v1_default":{
-    "abcd":["data"]
+    "arrayMap_main":["data"],
+    "singleMap_abcd":["data"],
+    "itemMapArray_main":["data"],
+    "itemItemMaparray":["data"]
   },
-  "abcd":{
+  "itemItemMaparray":{
+    "itemItemMaparray_abcd1":["data"]
+  },
+  "itemItemMaparray_abcd1":{
+    "itemItemMaparray_abcd2":["data"]
+  },
+  "itemMapArray_main":{
+    "itemMapArray_abcd1":["data"],
+    "itemMapArray_abcd2":["data"],
+    "itemMapArray_abcd3":["data"]
+  },
+  "itemItemMaparray_abcd2":{
     "attributes":{
-      "children":["text"]
+      "children":["text"],
+      "style":{
+        "fontSize":["fontSize"]
+      }
+    }
+  },
+  "itemMapArray_abcd1":{
+    "attributes":{
+      "children":["text"],
+      "style":{
+        "fontSize":["fontSize"]
+      }
+    }
+  },
+  "itemMapArray_abcd3":{
+    "attributes":{
+      "children":["text"],
+      "style":{
+        "fontSize":["fontSize"]
+      }
+    }
+  },
+  "itemMapArray_abcd2":{
+    "attributes":{
+      "children":["text"],
+      "style":{
+        "fontSize":["fontSize"]
+      }
+    }
+  },
+  "singleMap_abcd":{
+    "attributes":{
+      "children":["text"],
+      "style":{
+        "fontSize":["fontSize"]
+      }
+    }
+  },
+  "arrayMap_abcd":{
+    "attributes":{
+      "children":["text"],
+      "style":{
+        "fontSize":["fontSize"]
+      }
     }
   }
 }

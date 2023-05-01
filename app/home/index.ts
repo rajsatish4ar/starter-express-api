@@ -1,6 +1,6 @@
 import gql from 'graphql-tag'
 import HomeDataSource from './datasource';
-import * as Demo from '../layout/demo.json'
+import  Demo from '../layout/itemMaparray.json'
 import { layoutParser } from '../utils/layout';
 const typeDefs = gql`
  type  Query {
@@ -9,12 +9,17 @@ const typeDefs = gql`
   getDynamicComponents(params:JSON!): JSON
 }
 `
+const arrayData = [
+  { text: "hello parser 1", fontSize: 38 },
+  {text:"hello parser 2",fontSize:28},
+  {text:"hello parser 3",fontSize:28}
+]
+const data =  { text: "hello parser single", fontSize: 38 }
 const resolver = {
   Query: {
     getLayout: async (_:any, __:any, { dataSources }:any) => {
-      console.log("🚀 ~ file: index.ts:15 ~ getLayout: ~ __:", __)
-      // return Demo
-      return layoutParser(Demo, {data:{text:"hello parser"}})
+      const layout = layoutParser(Demo, {data})
+      return layout
     },
     getDynamicAttributes: async (_: any, { params}:any, { dataSources }:any) => {
       return {

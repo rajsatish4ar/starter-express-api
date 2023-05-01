@@ -4,13 +4,13 @@
   "components":[ 
     {
       "type":"Text",
-      "componentId":"abcd",
+      "componentId":"singleMap_abcd",
+      "attributesOnly":true,
       "attributes":{ 
         "style":{
           "fontSize":24,
           "fontWeight":"bold"
         },
-        "attributesOnly":false,
         "children":"Dyanmic App",
         "actions":{}
       },

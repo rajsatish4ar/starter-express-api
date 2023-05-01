@@ -8,9 +8,9 @@
   integrity sha512-Por80co1eUm4ATsvjCOoS/tIR8PHxqVjsA6z76I6Vw0rFn4cgyVElQcmQDIZiYsy41k8e5xkrMRECkM2WR8pNw==
 
 "@apollo/datasource-rest@^5.1.0":
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/@apollo/datasource-rest/-/datasource-rest-5.1.0.tgz#01f11634e2c4e939032460664717edcaebc67cd7"
-  integrity sha512-XEv/kzN2AebtM8yoAioCIyJOTac7SpvbI7Xnku69UpJuqR2Qpt1nKyDov8miLzkMhI8PN9+JnzDjEcm42WSGIQ==
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/@apollo/datasource-rest/-/datasource-rest-5.1.1.tgz#05d9893e428f35fb5940a7a0c56d70dc10d7648c"
+  integrity sha512-NJ+d6zV+QhHS6+YE8YDv8cny8qyUlysJo7K0awnqR7wM1CuLNPD01aQ7JM+PoywQJXk0VYsgO+McS2CG9RbNCQ==
   dependencies:
     "@apollo/utils.fetcher" "^2.0.0"
     "@apollo/utils.keyvaluecache" "^2.0.0"
@@ -515,9 +515,9 @@
     form-data "^3.0.0"
 
 "@types/node@*":
-  version "18.16.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.16.1.tgz#5db121e9c5352925bb1f1b892c4ae620e3526799"
-  integrity sha512-DZxSZWXxFfOlx7k7Rv4LAyiMroaxa3Ly/7OOzZO8cBNho0YzAi4qlbrx8W27JGqG57IgR/6J7r+nOJWw6kcvZA==
+  version "18.16.3"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.16.3.tgz#6bda7819aae6ea0b386ebc5b24bdf602f1b42b01"
+  integrity sha512-OPs5WnnT1xkCBiuQrZA4+YAV4HEJejmHneyraIaxsbev5yCEr6KMwINNFP9wQeFIw8FWcoTqF3vQsa5CDaI+8Q==
 
 "@types/node@^10.1.0":
   version "10.17.60"
@@ -1209,7 +1209,7 @@ node-fetch@^2.6.7:
   dependencies:
     whatwg-url "^5.0.0"
 
-nodemon@^2.0.15:
+nodemon@^2.0.22:
   version "2.0.22"
   resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-2.0.22.tgz#182c45c3a78da486f673d6c1702e00728daf5258"
   integrity sha512-B8YqaKMmyuCO7BowF1Z1/mkPqLk6cs/l63Ojtd6otKjMx47Dq1utxfRxcavH1I7VSaL8n5BUaoutadnsX3AAVQ==
