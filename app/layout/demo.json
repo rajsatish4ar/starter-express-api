@@ -1,97 +1,21 @@
 {
   "pageName":"demo_v1_default",
   "version":"v1",
-  "components":[
+  "components":[ 
     {
       "type":"Text",
-      "componentId":"xyz",
-      "attributes":{
+      "componentId":"abcd",
+      "attributes":{ 
         "style":{
           "fontSize":24,
           "fontWeight":"bold"
         },
+        "attributesOnly":false,
         "children":"Dyanmic App",
         "actions":{}
       },
-      "hooksMapperKey":"useSample",
-      "dataFetchType":"REALTIME",
-      "dataFetchDetails":{
-        "query":"",
-        "params":{}
-      },
+      "dataFetchType":"STATIC",
       "subComponents":[]
-    },
-
-    {
-      "type":"View",
-      "attributes":{
-        "style":{
-          "height":200,
-          "marginVertical":20
-        }
-      },
-      "subComponents":[
-        {
-          "type":"Text",
-          "attributes":{
-            "style":{
-            },
-            "children":"hello there"
-          }
-        }    
-      ]
-    },
-    {
-      "type":"Text",
-      "componentId":"xyz",
-      "attributes":{
-        "style":{
-          "fontSize":24,
-          "fontWeight":"bold"
-        },
-        "children":"Dyanmic Text attributes",
-        "actions":{}
-      },
-      "dataFetchType":"DYNAMIC",
-      "dataFetchDetails":{
-        "query":"getDynamicAttributes",
-        "params":{
-          "style":{
-            "fontSize":18
-          }
-        },
-        "attributesDataOnly":true
-      },
-      "dataFetchAttributesOnly":true,
-      "subComponents":[]
-    },
-    {
-      "type":"View",
-      "componentId":"xyz",
-      "attributes":{
-        "style":{
-          "borderWidth":1
-        },
-        "children":"Dyanmic Text attributes",
-        "actions":{}
-      },
-      "dataFetchType":"DYNAMIC",
-      "dataFetchDetails":{
-        "query":"getDynamicComponents",
-        "params":{
-        },
-      "attributesDataOnly":false
-      },
-      "subComponents":[
-        {
-          "type":"Text",
-          "attributes":{
-            "style":{
-            },
-            "children":"loading list..."
-          }
-        }    
-      ]
     }
   ]
 }
